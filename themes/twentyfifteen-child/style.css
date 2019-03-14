@@ -1,0 +1,32 @@
+/*
+Theme Name: Дочерняя тема
+Template: twentyfifteen
+Description: Дочерняя тема для темы twentyfifteen
+*/
+
+@import url("../twentyfifteen/style.css");
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin: 0 0 1.6em;
+	table-layout: fixed;
+	width: auto;
+}
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+	text-align: center;
+}
+th, td {
+	padding: 0.4em;
+	width: 100%;
+}
+a:hover, a:active {
+	outline: 0;
+	text-decoration: none;
+}
+.entry-content a, .entry-summary a, .page-content a, .comment-content a, .pingback .comment-body > a {
+	border-bottom: none;
+}
